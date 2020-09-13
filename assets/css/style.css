@@ -17,32 +17,7 @@ a {
 p {
   margin: 0px 0px 10px 0px;
 }
-.imgs {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0px 170px;
-}
-.imgs div {
-  height: fit-content;
-  margin-bottom: 30px;
-  padding: 0px 10px;
-}
-.atb {
-  max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.atb h1 {
-  font-family: Oswald;
-line-height: 36px;
-font-size: 24px;
-text-align: center;
-margin-bottom: 60px;
 
-color: #2F4858;
-}
 h1 {
   font-size: 24px;
   margin: 0px 0px 20px 0px;
@@ -57,6 +32,10 @@ h1 {
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
+}
+.aaa {
+  background: url("../img/Union.svg");
+  padding-top: 70px;
 }
 .backg {
   background: #2F4858;
@@ -118,16 +97,7 @@ width: 182px;
   .media-icons {
     margin-top: 30px;
   }
-  .imgs div {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-  }
-  .imgs div img {
-    width: 200px;
-    object-fit: scale-down;
-    max-height: 100px;
-  }
+  
 }
 @media only screen and (max-width: 768px) {
 .backg {
@@ -153,15 +123,5 @@ width: 182px;
     margin-top: 25px;
     text-align: left;
   }
-  .imgs {
-  padding: 0px 20px;
-  }
-  .imgs div {
-    padding: 0px 5px;
-  }
-  .imgs div img {
-    width: 130px;
-    object-fit: scale-down;
-    max-height: 70px;
-  }
+  
 }
